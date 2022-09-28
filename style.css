@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 16px;
+    height: 56px;
+    width: 200px;
+}
+.inicio {
+    text-align: center;
+    color: #9c27b0;
+}
+.logo {
+    margin-left: 30px;
+    width: 90px;
+    height: 60px;
+    position: center; 
+    border: 0cm;
+    padding: 0%;
+    margin: 0%;
+
+    
+}
+
+.logo a {
+    
+    margin-left: 0px;
+    width: 90px;
+    height: 80px;
+    position: center;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.navbar a {
+    display: block;
+    padding: 0px 0px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0px;
+    width: 56px;
+    height: 56px;
+    margin: 0px;
+}
+.house {
+    color: #fff;
+    padding: 4px;
+    box-shadow: #fff;
+    margin: 6px;
+    text-align: center;
+    height: 36px;
+    width: 36px;
+    position: center;
+}
+.house:hover {
+
+
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    
+
+}
+.basket {
+color: #fff;
+    padding: 4px;
+    box-shadow: #fff;
+    margin: 6px;
+    text-align: center;
+    height: 36px;
+    width: 36px;
+    position: center;
+}
+.basket:hover {
+
+
+    width: 38px;
+    height: 38px;
+    position: center;
+
+}
+.person {
+    color: #fff;
+    padding: 4px;
+    box-shadow: #fff;
+    margin: 6px;
+    text-align: center;
+    height: 36px;
+    width: 36px;
+    position: center;
+
+    
+}
+.person:hover {
+   
+    
+   width: 38px;
+   height: 38px;
+    
+}
+.navbar a:hover {
+    background: #222222;
+    font-size: 0px;
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/imgheader.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.title2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 17rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/retro2.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #ffffff;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+.insta {
+    color: #9c27b0;
+}
